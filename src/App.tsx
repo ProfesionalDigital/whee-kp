@@ -172,7 +172,9 @@ const Chairs = () => (
 
       <div className="chair-grid">
         <div className="chair-card">
-          <div className="chair-visual oliva">O</div>
+          <div className="w-[150px] h-[150px]">
+            <img src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/8c7867ea-722c-4295-6dd6-0ba63ad7b300/public" alt="Oliva" />
+          </div>
           <div className="chair-body">
             <div className="chair-name">Oliva</div>
             <div className="chair-tagline">Fuerte como la tierra que florece.</div>
@@ -184,7 +186,9 @@ const Chairs = () => (
         </div>
 
         <div className="chair-card">
-          <div className="chair-visual luna">L</div>
+          <div className="w-[150px] h-[150px]">
+            <img className='mix-blend-darken' src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/b299035e-774c-4d1b-18e4-6d79a010d900/public" alt="Luna" />
+          </div>
           <div className="chair-body">
             <div className="chair-name">Luna</div>
             <div className="chair-tagline">Flexible y serena, reflejando la luz de cada cuerpo.</div>
@@ -196,7 +200,9 @@ const Chairs = () => (
         </div>
 
         <div className="chair-card">
-          <div className="chair-visual lima">L</div>
+          <div className="w-[150px] h-[150px]">
+            <img className='mix-blend-darken' src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/dadb685f-52d1-4959-23ab-67f389ffdc00/public" alt="Oliva" />
+          </div>
           <div className="chair-body">
             <div className="chair-name">Lima</div>
             <div className="chair-tagline">Frescura que se divierte sin miedo.</div>
@@ -208,7 +214,9 @@ const Chairs = () => (
         </div>
 
         <div className="chair-card">
-          <div className="chair-visual uva">U</div>
+          <div className="w-[150px] h-[150px]">
+            <img className='-scale-x-100 mix-blend-darken' src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/965f37a6-8cb5-4865-7805-5e87ab6e5900/public" alt="Oliva" />
+          </div>
           <div className="chair-body">
             <div className="chair-name">Uva</div>
             <div className="chair-tagline">Juego, vitalidad y movimiento alegre.</div>
