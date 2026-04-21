@@ -52,25 +52,19 @@ const Hero = () => (
       </p>
     </div>
 
-    <div className="hero-visual">
+    <div className="hero-visual w-full">
       <div className="blob-bg" aria-hidden="true">
         <svg viewBox="0 0 420 520" preserveAspectRatio="xMidYMid meet">
           <path d="M210,40 C330,40 390,130 390,260 C390,380 330,480 210,480 C100,480 30,380 30,260 C30,140 100,40 210,40 Z" fill="#EFEAFA" />
           <path d="M210,70 C310,70 360,160 360,260 C360,360 310,450 210,450 C120,450 60,360 60,260 C60,160 120,70 210,70 Z" fill="none" stroke="#5B3CAD" strokeWidth="1" strokeDasharray="2 6" opacity="0.3" />
         </svg>
       </div>
-      <div className="hero-visual-frame">
-        <div className="hero-visual-label">
-          movilidad que
-          <strong>funciona</strong>
-          en tu vida
-        </div>
-      </div>
-      <div className="hero-badge hero-badge-1">
-        <span className="dot"></span> Evaluación profesional
-      </div>
-      <div className="hero-badge hero-badge-2">
-        <span className="dot"></span> Respaldo GMD · 25 años
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] z-10 group rounded-[2.5rem] overflow-hidden shadow-[0_20px_60px_rgba(91,60,173,0.25)] border-[8px] border-white bg-white">
+        <img 
+          src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/4ca9e91d-fbd5-466b-ad81-e1ab0f371700/public" 
+          alt="Persona usando silla de ruedas Whee" 
+          className="w-full h-auto block group-hover:scale-105 transition-transform duration-700 ease-out"
+        />
       </div>
     </div>
   </section>
