@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
 const Navbar = () => (
   <nav className="nav">
@@ -328,61 +328,6 @@ const Team = () => (
   </section>
 );
 
-const FAQ = () => (
-  <section className="faq" id="faq">
-    <div className="section-inner">
-      <div className="eyebrow">Preguntas honestas</div>
-      <h2>Lo que la gente <em>sí</em> quiere saber.</h2>
-      <p className="section-sub">Nada de letra pequeña. Si tienes otra pregunta, escríbenos por WhatsApp y te respondemos nosotras mismas.</p>
-
-      <div className="faq-list">
-        <details className="faq-item">
-          <summary className="faq-q">
-            ¿Cuánto cuesta una silla de ruedas Whee?
-            <svg fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 4v16m-8-8h16" strokeLinecap="round" /></svg>
-          </summary>
-          <div className="faq-a">El rango varía según el modelo, las medidas y los accesorios que necesites. Preferimos no dar un precio de lista porque sería mentirte: una silla bien formulada cambia de precio según tus requerimientos. En la evaluación te damos una cotización clara y sin sorpresas antes de cualquier compromiso.</div>
-        </details>
-        <details className="faq-item">
-          <summary className="faq-q">
-            ¿Cómo se paga?
-            <svg fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 4v16m-8-8h16" strokeLinecap="round" /></svg>
-          </summary>
-          <div className="faq-a">Manejamos pago particular (transferencia, tarjeta, financiación), y estamos habilitadas para procesos con EPS, medicina prepagada y recobro. En la primera conversación te contamos qué opción aplica a tu caso.</div>
-        </details>
-        <details className="faq-item">
-          <summary className="faq-q">
-            ¿En qué ciudades tienen cobertura?
-            <svg fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 4v16m-8-8h16" strokeLinecap="round" /></svg>
-          </summary>
-          <div className="faq-a">Gracias al respaldo de GMD, llegamos a todo Colombia con entrega a domicilio, instalación y soporte postventa. La evaluación puede ser virtual desde donde estés, y coordinamos entrega presencial en tu ciudad.</div>
-        </details>
-        <details className="faq-item">
-          <summary className="faq-q">
-            ¿Qué pasa si la silla no me sirve?
-            <svg fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 4v16m-8-8h16" strokeLinecap="round" /></svg>
-          </summary>
-          <div className="faq-a">Ese es el punto del proceso: evitar que eso pase. Por eso evaluamos antes, recomendamos con criterio clínico, ajustamos en entrega y seguimos acompañando después. Si algo no encaja, lo ajustamos. Nuestro objetivo es que la silla funcione, no venderla y desaparecer.</div>
-        </details>
-        <details className="faq-item">
-          <summary className="faq-q">
-            ¿Tiene garantía? ¿Hay repuestos?
-            <svg fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 4v16m-8-8h16" strokeLinecap="round" /></svg>
-          </summary>
-          <div className="faq-a">Sí. Cada silla tiene garantía KP by GMD según modelo, y el respaldo nacional de repuestos y servicio técnico de Impormedical. Somos una marca colombiana con operación logística propia — no dependes de importaciones cada vez que necesitas un repuesto.</div>
-        </details>
-        <details className="faq-item">
-          <summary className="faq-q">
-            ¿Tengo que saber qué silla necesito para contactarlas?
-            <svg fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 4v16m-8-8h16" strokeLinecap="round" /></svg>
-          </summary>
-          <div className="faq-a">Al contrario. La razón de Whee es que no tengas que saberlo. Tú nos cuentas la situación; nosotras te ayudamos a decidir. Si no hay claridad aún, mejor — ese es el momento ideal para empezar el proceso.</div>
-        </details>
-      </div>
-    </div>
-  </section>
-);
-
 const FinalCTA = () => (
   <section className="final-cta">
     <div className="section-inner">
@@ -456,20 +401,6 @@ const Footer = () => (
   </footer>
 );
 
-const DevNote = () => {
-  const [visible, setVisible] = useState(true);
-
-  if (!visible) return null;
-
-  return (
-    <div className="dev-note" id="devNote">
-      <button onClick={() => setVisible(false)} aria-label="Cerrar">×</button>
-      <strong>Mockup v1 · reemplazar:</strong><br />
-      logo combinado (archivo aprobado), fotos reales de las 4 sillas, fotos de Sara y Tatiana.
-    </div>
-  );
-};
-
 export default function App() {
 
   useEffect(() => {
@@ -507,10 +438,8 @@ export default function App() {
       <Process />
       <Colombia />
       <Team />
-      {/* <FAQ /> */}
       <FinalCTA />
       <Footer />
-      {/* <DevNote /> */}
     </>
   );
 }
