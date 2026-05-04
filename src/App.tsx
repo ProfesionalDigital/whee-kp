@@ -20,7 +20,7 @@ const Navbar = () => (
         <li><a href="#equipo">El equipo</a></li>
         {/* <li><a href="#faq">Preguntas</a></li> */}
       </ul>
-      <a href="https://wa.me/573005148844?text=Hola%2C%20quiero%20empezar%20mi%20proceso%20con%20Whee" className="nav-cta" target="_blank" rel="noopener noreferrer">
+      <a href="https://wa.me/573011334545?text=Hola%2C%20quiero%20empezar%20mi%20proceso%20con%20Whee" className="nav-cta" target="_blank" rel="noopener noreferrer">
         <svg fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" /></svg>
         WhatsApp
       </a>
@@ -33,22 +33,22 @@ const Hero = () => (
     <div>
       <div className="hero-eyebrow">Asesoría profesional · Colombia</div>
       <h1 className="hero-title">
-        La silla de ruedas correcta no se compra. Se <em>encuentra</em> con un proceso.
+        La silla de ruedas correcta no solo se compra. Se <em>encuentra</em> con un proceso.
       </h1>
       <p className="hero-sub">
         Te acompañamos desde la evaluación hasta el ajuste para que tu movilidad funcione en la vida real. No vendemos catálogo. Te ayudamos a encontrar lo que necesitas.
       </p>
       <div className="hero-ctas">
-        <a href="https://wa.me/573005148844?text=Hola%2C%20quiero%20empezar%20mi%20proceso%20con%20Whee" className="btn-primary" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/573011334545?text=Hola%2C%20quiero%20empezar%20mi%20proceso%20con%20Whee" className="btn-primary" target="_blank" rel="noopener noreferrer">
           <svg fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" /></svg>
           Quiero empezar mi proceso
         </a>
-        <a href="https://calendly.com/silladeruedaswhee" className="btn-secondary" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://calendly.com/silladeruedaswhee" className="btn-secondary" target="_blank" rel="noopener noreferrer">
           Agendar cita
-        </a>
+        </a> */}
       </div>
       <p className="hero-note">
-        <strong>Toma 2 minutos.</strong> Te contactamos por WhatsApp, sin compromiso.
+        <strong>Toma 2 minutos.</strong> Contáctanos por WhatsApp, sin compromiso.
       </p>
     </div>
 
@@ -60,9 +60,9 @@ const Hero = () => (
         </svg>
       </div>
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] z-10 group rounded-[2.5rem] overflow-hidden shadow-[0_20px_60px_rgba(91,60,173,0.25)] border-[8px] border-white bg-white">
-        <img 
-          src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/4ca9e91d-fbd5-466b-ad81-e1ab0f371700/public" 
-          alt="Persona usando silla de ruedas Whee" 
+        <img
+          src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/4ca9e91d-fbd5-466b-ad81-e1ab0f371700/public"
+          alt="Persona usando silla de ruedas Whee"
           className="w-full h-auto block group-hover:scale-105 transition-transform duration-700 ease-out"
         />
       </div>
@@ -146,7 +146,7 @@ const HowWeDoIt = () => (
         <div className="pillar">
           <div className="pillar-num">03</div>
           <h3 className="pillar-title">Acompañamos</h3>
-          <p className="pillar-text">Tu uso en el tiempo. Seguimiento a 30 y 90 días, ajustes por cambio postural, repuestos y soporte cuando lo necesites. No te soltamos al entregarla.</p>
+          <p className="pillar-text">Tu uso en el tiempo. Seguimiento y ajuste por cambio postural, repuestos y soporte cuando lo necesites. No te soltamos al entregarla.</p>
         </div>
       </div>
     </div>
@@ -161,19 +161,19 @@ const Chairs = () => (
           <div className="eyebrow">Conoce tus posibles sillas</div>
           <h2>Cuatro sillas, <em>cuatro perfiles</em>.</h2>
         </div>
-        <p className="section-sub" style={{ marginBottom: 0 }}>Sillas especializadas KP by GMD, seleccionadas para distintas patologías, entornos y formas de vivir. No las vas a ver con códigos raros — las conoces por nombre.</p>
+        <p className="section-sub" style={{ marginBottom: 0 }}>Sillas de ruedas especializadas KP by GMD, seleccionadas para distintas necesidades, entornos y formas de vivir.</p>
       </div>
 
       <div className="chair-grid">
         <div className="chair-card">
           <div className="w-[150px] h-[150px]">
-            <img src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/8c7867ea-722c-4295-6dd6-0ba63ad7b300/public" alt="Oliva" />
+            <img className='mix-blend-darken' src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/92adbc75-c2fd-4d4f-221e-a22ed777be00/public" alt="Oliva" />
           </div>
           <div className="chair-body">
             <div className="chair-name">Oliva</div>
             <div className="chair-tagline">Fuerte como la tierra que florece.</div>
             <p className="chair-profile">Para quienes necesitan estabilidad y resistencia en uso cotidiano prolongado. Estructura robusta, pensada para durar.</p>
-            <a href="https://wa.me/573005148844?text=Hola%2C%20quiero%20saber%20si%20Oliva%20es%20mi%20silla" className="chair-cta" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/573011334545?text=Hola%2C%20quiero%20saber%20si%20Oliva%20es%20mi%20silla" className="chair-cta mix-blend-darken" target="_blank" rel="noopener noreferrer">
               ¿Es esta mi silla? <svg fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" /></svg>
             </a>
           </div>
@@ -181,13 +181,13 @@ const Chairs = () => (
 
         <div className="chair-card">
           <div className="w-[150px] h-[150px]">
-            <img className='mix-blend-darken' src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/b299035e-774c-4d1b-18e4-6d79a010d900/public" alt="Luna" />
+            <img className='mix-blend-darken -scale-x-100' src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/78c42eb4-51fa-4ed3-b3c7-68874964ff00/public" alt="Luna" />
           </div>
           <div className="chair-body">
             <div className="chair-name">Luna</div>
             <div className="chair-tagline">Flexible y serena, reflejando la luz de cada cuerpo.</div>
             <p className="chair-profile">Para quien necesita adaptabilidad y soporte postural diferenciado. Se ajusta a distintas condiciones con gracia.</p>
-            <a href="https://wa.me/573005148844?text=Hola%2C%20quiero%20saber%20si%20Luna%20es%20mi%20silla" className="chair-cta" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/573011334545?text=Hola%2C%20quiero%20saber%20si%20Luna%20es%20mi%20silla" className="chair-cta" target="_blank" rel="noopener noreferrer">
               ¿Es esta mi silla? <svg fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" /></svg>
             </a>
           </div>
@@ -195,13 +195,13 @@ const Chairs = () => (
 
         <div className="chair-card">
           <div className="w-[150px] h-[150px]">
-            <img className='mix-blend-darken' src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/dadb685f-52d1-4959-23ab-67f389ffdc00/public" alt="Oliva" />
+            <img className='mix-blend-darken' src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/dadb685f-52d1-4959-23ab-67f389ffdc00/public" alt="Lima" />
           </div>
           <div className="chair-body">
             <div className="chair-name">Lima</div>
             <div className="chair-tagline">Frescura que se divierte sin miedo.</div>
             <p className="chair-profile">Para vidas activas, ágiles, que no se detienen. Ligera, dinámica, pensada para el movimiento confiado.</p>
-            <a href="https://wa.me/573005148844?text=Hola%2C%20quiero%20saber%20si%20Lima%20es%20mi%20silla" className="chair-cta" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/573011334545?text=Hola%2C%20quiero%20saber%20si%20Lima%20es%20mi%20silla" className="chair-cta" target="_blank" rel="noopener noreferrer">
               ¿Es esta mi silla? <svg fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" /></svg>
             </a>
           </div>
@@ -209,13 +209,13 @@ const Chairs = () => (
 
         <div className="chair-card">
           <div className="w-[150px] h-[150px]">
-            <img className='-scale-x-100 mix-blend-darken' src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/965f37a6-8cb5-4865-7805-5e87ab6e5900/public" alt="Oliva" />
+            <img className='-scale-x-100 mix-blend-darken' src="https://imagedelivery.net/3xEh-XSYeJWAvnbRPV3bRg/965f37a6-8cb5-4865-7805-5e87ab6e5900/public" alt="Uva" />
           </div>
           <div className="chair-body">
             <div className="chair-name">Uva</div>
             <div className="chair-tagline">Juego, vitalidad y movimiento alegre.</div>
             <p className="chair-profile">Diseñada especialmente para los más pequeños y jóvenes. Energía, color y medidas pensadas para crecer con ellos.</p>
-            <a href="https://wa.me/573005148844?text=Hola%2C%20quiero%20saber%20si%20Uva%20es%20mi%20silla" className="chair-cta" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/573011334545?text=Hola%2C%20quiero%20saber%20si%20Uva%20es%20mi%20silla" className="chair-cta" target="_blank" rel="noopener noreferrer">
               ¿Es esta mi silla? <svg fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" /></svg>
             </a>
           </div>
@@ -335,15 +335,15 @@ const FinalCTA = () => (
     <div className="section-inner">
       <div className="eyebrow" style={{ color: 'rgba(255,255,255,0.8)' }}>Comencemos</div>
       <h2>Tu movilidad, <em>en proceso</em>.</h2>
-      <p>En dos minutos nos cuentas lo que necesitas. Te contactamos por WhatsApp el mismo día, sin compromiso y sin letra pequeña.</p>
+      <p>En dos minutos nos cuentas lo que necesitas.</p>
       <div className="hero-ctas">
-        <a href="https://wa.me/573005148844?text=Hola%2C%20quiero%20empezar%20mi%20proceso%20con%20Whee" className="btn-primary" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/573011334545?text=Hola%2C%20quiero%20empezar%20mi%20proceso%20con%20Whee" className="btn-primary" target="_blank" rel="noopener noreferrer">
           <svg fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" /></svg>
           Quiero empezar mi proceso
         </a>
-        <a href="https://calendly.com/silladeruedaswhee" className="btn-secondary" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://calendly.com/silladeruedaswhee" className="btn-secondary" target="_blank" rel="noopener noreferrer">
           Agendar cita
-        </a>
+        </a> */}
       </div>
     </div>
   </section>
@@ -376,8 +376,8 @@ const Footer = () => (
         <div className="foot-col">
           <h4>Contacto</h4>
           <ul>
-            <li><a href="https://wa.me/573005148844" target="_blank" rel="noopener noreferrer">WhatsApp: +57 300 514 8844</a></li>
-            <li><a href="https://calendly.com/silladeruedaswhee" target="_blank" rel="noopener noreferrer">Agendar cita</a></li>
+            <li><a href="https://wa.me/573011334545" target="_blank" rel="noopener noreferrer">WhatsApp: +57 300 514 8844</a></li>
+            {/* <li><a href="https://calendly.com/silladeruedaswhee" target="_blank" rel="noopener noreferrer">Agendar cita</a></li> */}
             <li><a href="mailto:contacto@whee-educacion.com">contacto@whee-educacion.com</a></li>
             <li>Medellín · Colombia</li>
           </ul>
